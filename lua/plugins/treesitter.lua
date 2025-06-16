@@ -29,6 +29,7 @@ return {
           "markdown",
           "regex",
           "tsx",
+          "c_sharp",
         },
 
         highlight = { enable = true },
