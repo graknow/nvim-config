@@ -37,6 +37,6 @@ vim.keymap.set("n", "<leader><leader>", function()
   vim.cmd("so")
 end)
 
-vim.keymap.set("n", "<leader>er", function()
+vim.keymap.set("n", "<leader>err", function()
   vim.cmd("lua vim.diagnostic.open_float(0, { scope=\"line\" })")
-end)
+end, { desc = "Read line alert." })
