@@ -21,9 +21,6 @@ vim.keymap.set("n", "<leader>d", "\"_d")
 
 vim.keymap.set("i", "<C-c>", "<Esc>")
 vim.keymap.set("n", "Q", "<nop>")
-vim.keymap.set("n", "<leader>FF", function()
-  vim.lsp.buf.format()
-end, { desc = "Format current file" })
 
 vim.keymap.set("n", "<C-k>", "<cmd>cnext<CR>zz")
 vim.keymap.set("n", "<C-j>", "<cmd>cprev<CR>zz")

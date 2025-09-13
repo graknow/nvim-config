@@ -46,13 +46,13 @@ vim.api.nvim_create_autocmd("LspAttach", {
       vim.keymap.set(mode, rhs, lhs, { buffer = event.buf, desc = desc })
     end
     bufmap("n", "gd", function() vim.lsp.buf.definition() end, "Goto definition")
-    bufmap("n", "K", function() vim.lsp.buf.hover() end)
+    bufmap("n", "<leader>eh", function() vim.lsp.buf.hover() end)
+    bufmap("n", "<leader>FF", function() vim.lsp.buf.format() end, "Format current file")
 
     bufmap("n", "<leader>es", function() vim.lsp.buf.workspace_symbol() end, "Workspace symbol")
     bufmap("n", "<leader>ef", function() vim.diagnostic.open_float() end, "Open float")
     bufmap("n", "<leader>ea", function() vim.lsp.buf.code_action() end, "Code action")
-    bufmap("n", "<leader>erf", function() vim.lsp.buf.references() end, "References")
-    bufmap("n", "<leader>ern", function() vim.lsp.buf.rename() end, "Rename symbol")
+    bufmap("n", "<leader>gr", function() vim.lsp.buf.rename() end, "Rename symbol")
     bufmap('n', '<leader>ei', function() vim.lsp.buf.implementation() end, "Implementations")
     bufmap('n', '<leader>edo', function() vim.lsp.buf.document_symbol() end, "Document symbol")
     bufmap('n', '<leader>edf', function() vim.lsp.buf.definition() end, "Definitions")

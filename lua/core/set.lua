@@ -35,3 +35,5 @@ vim.opt.foldlevelstart = 99
 vim.opt.foldnestmax = 4
 
 vim.g.mapleader = " "
+
+vim.g.c_syntax_for_h = 1

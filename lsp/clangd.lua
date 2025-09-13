@@ -61,8 +61,8 @@ end
 ---@field offsetEncoding? string
 
 return {
-  cmd = { 'clangd' },
-  filetypes = { 'c', 'cpp', 'objc', 'objcpp', 'cuda', 'proto' },
+  cmd = { 'clangd', '--fallback-style=webkit' },
+  filetypes = { 'c', 'h', 'cpp', 'hpp', 'objc', 'objcpp', 'cuda', 'proto' },
   root_markers = {
     '.clangd',
     '.clang-tidy',
