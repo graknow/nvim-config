@@ -15,6 +15,8 @@ return {
       -- C-n/C-p or Up/Down: Select next/previous item
       -- C-e: Hide menu
       -- C-k: Toggle signature help (if signature.enabled = true)
+      -- C-b: Scroll docs up
+      -- C-f: Scroll docs down
       keymap = {
         preset = "super-tab"
       },
