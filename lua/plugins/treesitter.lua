@@ -1,11 +1,12 @@
 -- Highlight, edit, navigate.
-return {
+return
+{
   {
     "nvim-treesitter/nvim-treesitter",
     lazy = false,
     build = ':TSUpdate',
-    config = function()
-      require("nvim-treesitter").install({
+    opts = {
+      ensure_installed = {
         "c",
         "cpp",
         "javascript",
@@ -25,7 +26,12 @@ return {
         "tsx",
         "c_sharp",
         "xml",
-      })
-    end
+      },
+      sync_install = false,
+      auto_install = false,
+      -- indent = { enable = true },
+      highlight = { enable = true },
+      -- folds = { enable = true },
+    },
   },
 }
