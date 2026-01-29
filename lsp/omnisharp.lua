@@ -26,7 +26,7 @@ return {
     '--languageserver',
   },
   filetypes = { 'cs', 'vb' },
-  root_markers = { '.sln', '.csproj', 'omnisharp.json', 'function.json' },
+  root_markers = { '.sln', '.csproj', 'omnisharp.json', 'function.json', '.slnx' },
   init_options = {},
   capabilities = {
     workspace = {
