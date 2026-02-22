@@ -25,10 +25,13 @@ end
 
 -- Setup lazy.nvim
 lazy.setup({
+  defaults = {
+    version = "*",
+  },
+  dev = {
+    path = "~/src/nvim-plugins",
+  },
   spec = {
     { import = "plugins" },
   },
-
-  install = { colorscheme = { "habamax" } },
-  checker = { enabled = true },
 })

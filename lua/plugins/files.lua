@@ -1,6 +1,6 @@
 return {
   "lf.nvim",
-  dir = "~/src/repos/graknow/lf.nvim/",
+  dir = "~/src/nvim-plugins/lf.nvim",
   cmd = "Lf",
   lazy = false,
   dependencies = { "nvim-lua/plenary.nvim", "akinsho/toggleterm.nvim" },
