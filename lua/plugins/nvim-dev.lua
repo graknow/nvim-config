@@ -1,5 +1,0 @@
-return {
-  {
-    "emiasims/nvim-luaref"
-  }
-}

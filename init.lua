@@ -1,4 +1,3 @@
-require("core.lazy")
 require("core.auto")
 require("core.lsp")
 require("core.remap")

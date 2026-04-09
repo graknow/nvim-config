@@ -1,5 +1,4 @@
 vim.lsp.enable({
-  --"avalonia",
   "bash-ls",
   "clangd",
   "css-ls",
