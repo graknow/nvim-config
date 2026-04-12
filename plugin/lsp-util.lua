@@ -1,18 +1,9 @@
 vim.pack.add({
   {
-    src = "https://github.com/williamboman/mason.nvim",
-    version = "v2.2.1",
-  },
-  {
     src = "https://github.com/saghen/blink.cmp",
     version = "v1.10.2",
   },
 })
-
-local mason_plugin = require("mason")
-
-mason_plugin.setup()
-
 
 local blink_plugin = require("blink.cmp")
 

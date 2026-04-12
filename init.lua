@@ -1,4 +1,5 @@
 require("core.auto")
+require("core.treesitter")
 require("core.lsp")
 require("core.remap")
 require("core.set")

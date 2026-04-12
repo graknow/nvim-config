@@ -34,10 +34,10 @@
       "rev": "f5d2a8570f8b736ddb9bb4be504355bcd6e15ec8",
       "src": "https://github.com/nvim-lualine/lualine.nvim"
     },
-    "mason.nvim": {
-      "rev": "44d1e90e1f66e077268191e3ee9d2ac97cc18e65",
-      "src": "https://github.com/williamboman/mason.nvim",
-      "version": "'v2.2.1'"
+    "markview.nvim": {
+      "rev": "02824a95a0db2c9fd1bab3adba4510bc8f9c91e4",
+      "src": "https://github.com/OXY2DEV/markview.nvim",
+      "version": "'v28.1.0'"
     },
     "neovim": {
       "rev": "cf2a288696b03d0934da713d66c6d71557b5c997",
@@ -47,11 +47,6 @@
     "nvim-luaref": {
       "rev": "9cd3ed50d5752ffd56d88dd9e395ddd3dc2c7127",
       "src": "https://github.com/emiasims/nvim-luaref"
-    },
-    "nvim-treesitter": {
-      "rev": "4916d6592ede8c07973490d9322f187e07dfefac",
-      "src": "https://github.com/nvim-treesitter/nvim-treesitter",
-      "version": "'main'"
     },
     "nvim-web-devicons": {
       "rev": "6e76c5e47e957fbf080b1fdac165c66dbd2e7cfb",
