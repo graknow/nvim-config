@@ -11,4 +11,8 @@ plugin_mv.setup({
   preview = {
     icon_provider = "devicons",
   },
+  experimental = {
+    prefer_nvim = true,
+    file_open_command = "e"
+  }
 })
