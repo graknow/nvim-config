@@ -4,5 +4,6 @@ vim.treesitter.language.add("rust")
 vim.treesitter.language.add("latex")
 vim.treesitter.language.add("bash")
 vim.treesitter.language.add("html")
+vim.treesitter.language.add("markdown_inline")
 
 vim.treesitter.language.register("bash", { "sh" })
