@@ -7,3 +7,4 @@ vim.treesitter.language.add("html")
 vim.treesitter.language.add("markdown_inline")
 
 vim.treesitter.language.register("bash", { "sh" })
+vim.treesitter.language.register("c_sharp", { "cs" })

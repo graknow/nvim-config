@@ -6,7 +6,7 @@ vim.lsp.enable({
   "html-ls",
   "lua-ls",
   "omnisharp",
-  "pyright",
+  "pylsp",
   "rust-analyzer",
   "ts-ls",
 })
