@@ -116,4 +116,11 @@ return {
       reload_workspace(0)
     end, { desc = 'Reload current cargo workspace' })
   end,
+  settings = {
+    ['rust-analyzer'] = {
+      cargo = {
+        features = "all"
+      }
+    }
+  }
 }
